@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Navbar from "./components/Navbar.jsx"
 
 
 function App() {
@@ -6,7 +7,13 @@ function App() {
 
   return (
     <>
-<p>Hi!</p>
+
+<Navbar/>
+
+
+
+
+
     </>
   )
 }
